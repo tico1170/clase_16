@@ -7,3 +7,22 @@ header {
     background: lightblue;
     padding: 20px;
 }
+footer {
+    background: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer ul {
+    display: flex;
+    list-style: none;
+}
+footer ul li {
+    margin-left: 20px;
+}
+footer ul li a {
+    color: rgb(219, 81, 188);
+    font-size: 18px;
+    text-decoration: none;
+}
